@@ -1,0 +1,65 @@
+<!-- register.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+		{{header.active('sign-in')}}
+
+        <div class="wrap wrap_section wrap_sm">
+			<div class="wrap wrap_alignCenter">
+				<h1 class="hdg hdg_1 pushTop20 pushBtm40">Register</h1>
+			</div>
+			<div class="wrap pushBtm20">
+				<label for="email-address">Enter email address</label>
+				<div class="wrap">
+					<input type="email" class="form-input" id="email-address">
+					<div class="form-input-status">
+						<span class="txt_green txt_med"><i class="fa fa-check"></i></span>
+					</div>
+				</div>
+				<label for="password-create">Create a Password</label>
+				<div class="wrap">
+					<input type="password" id="password-create" class="form-input">
+					<div class="form-input-status">
+						<span class="txt_green txt_med"><i class="fa fa-check"></i></span>
+					</div>
+				</div>
+				<div class="meter">
+					<div class="meter-bar">
+						<div class="meter-bar-level medium"></div><!-- CLASSES weak, medium, and strong ARE USED TO CHANGE COLOR AND WIDTH OF METER -->
+					</div>
+					<div class="meter-text">Medium</div>
+				</div>
+				<label for="password-confirm">Confirm Password</label>
+				<div class="wrap">
+					<input type="password" id="password-create" class="form-input form-input_error">
+					<div class="form-input-status">
+						<span class="txt_error txt_med"><i class="fa fa-ban"></i></span>
+					</div>
+				</div>
+				<div class="form-error"><i class="fa fa-exclamation-triangle"></i> Passwords don't match.</div>
+				<label for="security-question">Choose a security question</label>
+				<select name="security question" id="security question" class="form-input">
+					<option value="">What is your name?</option>
+					<option value="">What is you favorite color?</option>
+					<option value="">What is the airspeed velocity of an unladen Swallow?</option>
+				</select>
+				<label for="security-answer">Answer to your security question</label>
+				<input type="text" class="form-input">
+			</div>
+			<div class="wrap wrap_alignCenter pushBtm40">
+				<div class="wrap pushBtm20">
+					<ul class="checkbox">
+					<li>
+			            <input type="checkbox" name="checkbox-choice" id="checkbox-choice-1" />
+			            <label for="checkbox-choice-1" class="checkbox-custom">
+			            	<i class="fa fa-check-square-o"></i>
+			            	<i class="fa fa-square-o"></i>
+			            </label>
+			            <span class="checkbox-text">I accept the <a href="">terms of use</a> of this website.</span>
+			        </li>
+				</ul>
+				</div>
+				<a href="admin-home.html" class="btn btn_tertiary">Register Now</a>
+			</div>
+        </div>
+{% endblock %}

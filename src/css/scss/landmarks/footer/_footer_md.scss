@@ -1,0 +1,29 @@
+// ------------------------------------------------------------------
+// Footer Med
+// ------------------------------------------------------------------
+.footer {
+	background: $gray_dark;
+}
+
+.footer-content {
+	display: table;
+	width: 100%;
+	max-width: $site_width;
+	margin: 0 auto;
+	padding: 10px;
+	color: $white;
+}
+
+.footer-content > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.footer-legal {
+	padding-bottom: 0;
+	text-align: left;
+}
+
+.footer-legal small {font-size: 12px;}
+
+.footer-logo {text-align: right;}

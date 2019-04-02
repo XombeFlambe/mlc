@@ -1,0 +1,46 @@
+<!-- forms-beta-testing.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+		{{pageHeader.active('forms-beta-testing')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_3 pushBtm20">The Beta Test You Are Selecting:</h2>
+						<div class="box pushBtm40">
+							<p class="txt_bold">Everything DiSC® Productive Conflict Facilitation Beta 4</p>
+						</div>
+
+						<div class="form">
+							<label for="first-name">First Name</label>
+							<input type="text" id="first-name" class="form-input form-input_required form-input_error">
+							<div class="form-error ErrorLabel">Please enter your First Name</div>
+							<label for="last-name">Last Name</label>
+							<input type="text" id="last-name" class="form-input form-input_required">
+							<label for="company">Company</label>
+							<input type="text" id="company" class="form-input">
+							<label for="email">Email</label>
+							<input type="email" id="email" class="form-input form-input_required">
+							<label for="phone">Phone Number</label>
+							<input type="text" id="phone" class="form-input form-input_required">
+
+							<div class="wrap pushTop20">
+								<input type="submit" class="btn" value="Submit">
+								<a href="javascript:history.back()" class="btn btn_secondary">Cancel</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="grid-col grid-col_1of3">
+						
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

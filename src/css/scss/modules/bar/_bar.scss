@@ -1,0 +1,19 @@
+/*----------------------------------------------------------------------
+ Bar Styles
+----------------------------------------------------------------------*/
+.bar {
+	padding: 20px 0;
+	background: $gray_dark;
+	color: $white;
+	text-align: center;
+}
+
+.bar > * {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.bar-text {
+	margin-bottom: 10px;
+	font-size: 16px;
+}

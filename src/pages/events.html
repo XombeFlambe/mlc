@@ -1,0 +1,54 @@
+<!-- events.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+		{{pageHeader.active('events')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						<div class="form">
+							<select name="select-brands" id="select-brands" class="form-input" title="Select Brand">
+								<option value="">All Brands</option>
+								<option value="">MindLab</option>
+								<option value="">Everything DiSC</option>
+								<option value="">Five Behaviors</option>
+								<option value="">PXT Select</option>
+							</select>
+							<select name="select-events" id="select-events" class="form-input" title="Select Event Type">
+								<option value="">All Event Types</option>
+								<option value="">Showcases</option>
+								<option value="">Jumpstart</option>
+								<option value="">Everything DiSC Certification</option>
+								<option value="">The Five Behaviors Facilitation</option>
+							</select>
+							<select name="select-type" id="select-type" class="form-input" title="Select In-Person/Online">
+								<option value="">Online and In-Person</option>
+								<option value="">Online Only</option>
+								<option value="">In-Person Only</option>
+							</select>
+							<select name="select-partner-client" id="select-partner-client" class="form-input" title="Select Partner/Client">
+								<option value="">Partner and Client Events</option>
+								<option value="">Partner Events Only</option>
+								<option value="">Client Events Only</option>
+							</select>
+							<select name="select-country" id="select-country" class="form-input" title="Select Region">
+								<option value="">North America</option>
+								<option value="">International</option>
+							</select>
+						</div>
+						<input type="submit" class="btn" value="Find Events">
+					</div>
+					<div class="grid-col grid-col_2of3">
+						{% include 'partials/modules/_events-all.html' %}
+
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

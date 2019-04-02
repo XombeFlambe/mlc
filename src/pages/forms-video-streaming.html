@@ -1,0 +1,120 @@
+<!-- forms-video-streaming.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+		{{pageHeader.active('forms')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 pushBtm20">Video Streaming</h2>
+						<p class="txt_med pushBtm20">Video Streaming Service Agreements provide users with optimal, virtual video access. If you own a Facilitation Kit for an Everything DiSC® or Five Behaviors™ product, then you’re aware the license allows you to use the video in live, in-person or online training sessions. Video streaming helps you use these video segments in virtual environments, branded with your company logo.</p>
+						<p class="pushBtm40">Before completing an agreement, <a href="#">test this link</a> to be sure our Video Streaming service is compatible with your webinar platform. </p>
+
+						<h3 class="hdg hdg_3 pushBtm20">Please submit the following form to request video streaming</h3>
+						<div class="form">
+							<label for="partner-name">Partner Name</label>
+							<input type="text" id="partner-name" class="form-input form-input_required form-input_error">
+							<div class="form-error"><i class="fa fa-exclamation-triangle padRight5"></i> Please enter your Partner Name</div>
+							<label for="email">Email Address</label>
+							<input type="email" id="email" class="form-input form-input_required">
+							<label for="phone">Phone Number</label>
+							<input type="text" id="phone" class="form-input form-input_required">
+							<label for="client-name">Client Name</label><span class="txt_sm padLeft10">Please input N/A if the request is for yourself</span>
+							<input type="text" id="client-name" class="form-input form-input_required">
+
+							<hr class="pushBtm20">
+
+							<h4 class="hdg hdg_4 pushBtm10">Product(s) for which video streaming is being provided.</h4>
+							<p class="pushBtm20">Agreement will not be processed without appropriate serial numbers.</p>
+							<label for="ed-sales">Everything DiSC Sales</label>
+							<input type="text" id="ed-sales" class="form-input">
+							<label for="ed-management">Everything DiSC Management</label>
+							<input type="text" id="ed-management" class="form-input">
+							<label for="ed-workplace">Everything DiSC Workplace&reg;</label>
+							<input type="text" id="ed-workplace" class="form-input">
+							<label for="ed-work-of-leaders">Everything DiSC Work of Leaders&reg;</label>
+							<input type="text" id="ed-work-of-leaders" class="form-input">
+							<label for="five-behaviors">The Five Behaviors of a Cohesive Team&#8482;</label>
+							<input type="text" id="five-behaviors" class="form-input">
+
+							<hr class="pushBtm20">
+
+							<h4 class="hdg hdg_4 pushBtm10">Choose your language</h4>
+							<p class="pushBtm10">Videos are available in the same languages as Facilitation Kits. see the Confidential Wholesale Price List for a complete listing.</p>
+							<label for="language-select">Language requested if not in English</label>
+							<select name="language-select" id="language-select" class="form-input">
+								<option value="">Choose a Language</option>
+								<option value="">Chinese</option>
+								<option value="">Danish</option>
+								<option value="">Finnish</option>
+								<option value="">French</option>
+							</select>
+
+							<hr class="pushBtm20">
+
+							<h4 class="hdg hdg_4 pushBtm10">Upload your Company Logo</h4>
+							<p class="pushBtm10">Logo not required. Accepted files include PDF, JPEG, JPG, PNG, EPS, PSD, or Zip.</p>
+							<label for="company-logo">Company Logo</label>
+							<div class="wrap"><input type="file"></div>
+
+							<hr class="pushBtm20 pushTop20">
+
+							<h4 class="hdg hdg_4 pushBtm10">Date by which video streaming is needed</h4>
+							<p class="pushBtm10">Please allow up to 5 business days to process your request.</p>
+							<label for="date-needed">Date Needed</label>
+							<input type="date" id="date-needed" class="form-input form-input_required form-input_error">
+							<div class="form-error"><i class="fa fa-exclamation-triangle padRight5"></i> Please enter date needed</div>
+
+							<hr class="pushBtm20">
+
+							<h4 class="hdg hdg_4 pushBtm20">Terms and Conditions</h4>
+							<div class="box box_scroll pushBtm20">
+								<p class="txt_sm pushBtm10">Inscape Publishing, LLC, a subsidiary of John Wiley & Sons, Inc. (“Wiley”),  shall provide video streaming to the Everything DiSC® and/or Five Behaviors™ Partner or one of the Partner’s clients (the “Licensee”) named below in accordance with the terms of this Video Streaming License Agreement. By ticking the below box, Partner accepts and agrees that the following terms and conditions:</p>
+								<div class="txt_sm">
+									<ul class="list list_number">
+										<li>
+											<ul>
+												<li class="pushBtm5">You may purchase a Video Streaming License for a Licensee’s use.</li>
+												<li>
+													<ul class="list list_bullet list_noMarginBtm">
+														<li>A separate Video Streaming License is required for every Licensee who will be accessing the streaming video. For example, if you are planning an initiative to use Everything DiSC Workplace, Management, and Sales in a training session, you will need three separate licenses.</li>
+														<li>Each Licensee who accesses the streaming videos pursuant to this Agreement must own one Facilitation Kit for each license obtained.</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>You agree to pay a one-time set-up fee of $195 for each Video Streaming License. This set-up fee includes putting the Licensee name and logo on the web page providing the video stream.</li>
+										<li>Within five business days after your acceptance of this Agreement, submission of the Licensee name and logo, and payment of the set-up fee, we will provide you with a link to a customized web page for each video segment in the product specified from which your users can stream the video segments. The customized web page will include the Licensee’s logo or name.</li>
+										<li>Because the video streaming service is provided by a third party vendor and relies on the public Internet, we do not warrant availability, merchantability, or consistency of video quality.</li>
+										<li>You or Wiley may terminate this license by providing notice in writing at least ten business days in advance of termination. This service shall automatically terminate if your Authorized Partner Application and Agreement terminates or expires for any reason. Upon termination, Wiley will deactivate the Licensee account and all related information and/or files.</li>
+									</ul>
+								</div>
+							</div>
+
+							<table class="checkbox pushBtm40">
+								<tbody>
+									<tr>
+										<td><input type="checkbox" name="checkbox-choice" id="checkbox-choice-1"></td>
+										<td><label for="checkbox-choice-1">I agree to these terms and if approved, I authorize Wiley to charge my credit card on file when the video streaming service is set up.</label></td>
+									</tr>
+								</tbody>
+							</table>
+
+							<input type="submit" class="btn" value="Submit">
+							<a href="javascript:history.back()" class="btn btn_secondary">Cancel</a>
+						</div>
+
+					</div>
+					<div class="grid-col grid-col_1of3">
+						
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

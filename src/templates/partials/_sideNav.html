@@ -1,0 +1,52 @@
+{% macro active(activePage='home') %}
+
+		{%if (activePage == 'marketing-overview') or (activePage == 'marketing-images') or (activePage == 'marketing-brochures') or (activePage == 'marketing-email-templates') or (activePage == 'marketing-success-stories') or (activePage == 'marketing-slide-presentations') or (activePage == 'marketing-videos') %}
+		<ul class="sideNav pushBtm20">
+			<li><a href="marketing-overview.html" class="{%if activePage == 'marketing-overview' %}active{%endif%}">Product Overview </a></li>
+			<li><a href="marketing-images.html" class="{%if activePage == 'marketing-images' %}active{%endif%}">Images <i class="fa fa-exclamation"></i></a></li>
+			<li><a href="marketing-brochures.html" class="{%if activePage == 'marketing-brochures' %}active{%endif%}">Brochures </a></li>
+			<li><a href="marketing-email-templates.html" class="{%if activePage == 'marketing-email-templates' %}active{%endif%}">Email Templates </a></li>
+			<li><a href="marketing-success-stories.html" class="{%if activePage == 'marketing-success-stories' %}active{%endif%}">Success Stories </a></li>
+			<li><a href="marketing-slide-presentations.html" class="{%if activePage == 'marketing-slide-presentations' %}active{%endif%}">Slide Presentations </a></li>
+			<li><a href="marketing-video.html" class="{%if activePage == 'marketing-videos' %}active{%endif%}">Video </a></li>
+		</ul>
+		<a href="marketing.html" class="btn btn_secondary">Back</a>
+		{% endif %}
+
+		{%if (activePage == 'client-overview') or (activePage == 'client-details') or (activePage == 'client-brochures') or (activePage == 'styleguide') %}
+		<ul class="sideNav">
+			<li><a href="client-overview.html" class="{%if (activePage == 'client-overview') or (activePage == 'styleguide') %}active{%endif%}">Benefits Overview </a></li>
+			<li><a href="client-details.html" class="{%if activePage == 'client-details' %}active{%endif%}">Program Details </a></li>
+			<li><a href="client-brochures.html" class="{%if activePage == 'client-brochures' %}active{%endif%}">Brochures </a></li>
+		</ul>
+		{% endif %}
+
+		{%if (activePage == 'partner-overview') or (activePage == 'partner-jumpstart') or (activePage == 'partner-certification') or (activePage == 'partner-videos')  %}
+		<ul class="sideNav">
+			<li><a href="partner-overview.html" class="{%if activePage == 'partner-overview' %}active{%endif%}">Partner Education Overview </a></li>
+			<li><a href="partner-jumpstart.html" class="{%if activePage == 'partner-jumpstart' %}active{%endif%}">Jumpstart - New Partner Trianing </a></li>
+			<li><a href="partner-certification.html" class="{%if activePage == 'partner-certification' %}active{%endif%}">Workplace Certification </a></li>
+			<li><a href="partner-video.html" class="{%if activePage == 'partner-videos' %}active{%endif%}">Videos </a></li>
+		</ul>
+		{% endif %}
+
+		{%if (activePage == 'showcase-overview') or (activePage == 'showcase-marketing') or (activePage == 'showcase-resources') or (activePage == 'showcase-toolkit') %}
+		<ul class="sideNav">
+			<li><a href="showcase-overview.html" class="{%if activePage == 'showcase-overview' %}active{%endif%}">Showcase Overview </a></li>
+			<li><a href="showcase-marketing.html" class="{%if activePage == 'showcase-marketing' %}active{%endif%}">Marketing Tools</a></li>
+			<li><a href="showcase-resources.html" class="{%if activePage == 'showcase-resources' %}active{%endif%}">Resources </a></li>
+			<li><a href="showcase-toolkit.html" class="{%if activePage == 'showcase-toolkit' %}active{%endif%}">Presentation Toolkit </a></li>
+		</ul>
+		{% endif %}
+
+		{%if (activePage == 'beta-test-overview') or (activePage == 'beta-test-guidelines') or (activePage == 'beta-test-opportunities') or (activePage == 'beta-test-facilitation') %}
+		<ul class="sideNav">
+			<li><a href="beta-test-overview.html" class="{%if activePage == 'beta-test-overview' %}active{%endif%}">Beta Test Overview </a></li>
+			<li><a href="beta-test-guidelines.html" class="{%if activePage == 'beta-test-guidelines' %}active{%endif%}">Guidelines of Engagement </a></li>
+			<li><a href="beta-test-opportunities.html" class="{%if activePage == 'beta-test-opportunities' %}active{%endif%}">Upcoming Opportunities </a></li>
+			<li><a href="beta-test-facilitation.html" class="{%if activePage == 'beta-test-facilitation' %}active{%endif%}">Supporting Beta Facilitation </a></li>
+		</ul>
+		{% endif %}
+
+		<hr class="isHiddenDesktop">
+{% endmacro %}

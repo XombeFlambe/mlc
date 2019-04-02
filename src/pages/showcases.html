@@ -1,0 +1,18 @@
+<!-- showcases.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('showcases')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				{{cardLinks.active('showcases')}}
+			</div>
+
+        </div>
+{% endblock %}

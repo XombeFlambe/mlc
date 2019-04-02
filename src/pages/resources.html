@@ -1,0 +1,18 @@
+<!-- resources.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('resources')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				{{cards.active('3col-images')}}
+			</div>
+
+        </div>
+{% endblock %}

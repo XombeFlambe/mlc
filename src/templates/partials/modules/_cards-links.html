@@ -1,0 +1,67 @@
+{% macro active(activePage='home') %}
+					{%if activePage == 'marketing' %}
+					<!-- CARDS 3 COLUMN -->
+					<ul class="blocks blocks_3col">
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg; Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg; Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Workplace&reg;" class="card-hd">
+						</li>
+					</ul>
+					{% endif %}
+
+					{%if activePage == 'showcases' %}
+					<!-- CARDS 3 COLUMN -->
+					<ul class="blocks blocks_3col">
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Showcase" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Showcase" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Everything DiSC Showcase" class="card-hd">
+						</li>
+					</ul>
+					{% endif %}
+
+					{%if activePage == 'showcase-marketing' %}
+					<!-- CARDS 2 COLUMN -->
+					<ul class="blocks blocks_2col">
+						<li class="card card_link">
+							<input type="submit" value="Showcase Marketing/Resource Link" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Showcase Marketing/Resource Link" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Showcase Marketing/Resource Link" class="card-hd">
+						</li>
+					</ul>
+					{% endif %}
+
+					{%if activePage == 'forms' %}
+					<!-- CARDS 3 COLUMN -->
+					<ul class="blocks blocks_3col">
+						<li class="card card_link">
+							<input type="submit" value="Video Streaming Form" class="card-hd">
+						</li>
+						<li class="card card_link">
+							<input type="submit" value="Language Request Form" class="card-hd">
+						</li>
+					</ul>
+					{% endif %}
+{% endmacro %}

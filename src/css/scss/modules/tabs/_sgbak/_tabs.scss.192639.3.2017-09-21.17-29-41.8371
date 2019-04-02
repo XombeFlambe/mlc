@@ -1,0 +1,64 @@
+/*----------------------------------------------------------------------
+ Tab Styles
+----------------------------------------------------------------------*/
+.tab {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.tab-trigger {
+	width: 100%;
+	border-bottom: 1px solid $gray;
+	@include clearfix();
+	
+	li {
+		margin-right: 10px;
+		float: left;
+	}
+
+	a {
+		display: block;
+		margin-bottom: -1px;
+		padding: 10px 20px;
+		border: 1px solid $gray;
+		border-bottom: 1px solid $gray;
+		background: $gray_light;
+		position: relative;
+		font-size: 16px;
+		text-decoration: none;
+		outline: none;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.active a {
+		background: $white;
+		color: $brand_dark;
+		cursor: default;
+	}
+
+	.active a:after {
+		display: block;
+		content: "";
+		height: 1px;
+		width: 100%;
+		background: $white;
+		z-index: 2;
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+	}
+}
+
+.tab-content {
+	padding: 20px 0;
+	border: 1px solid $gray;
+	border-top: none;
+}
+
+.tab-content-item {
+	display: none;
+}
+
+.tab-content-item:first-child {display: block;}

@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Footer
+// ------------------------------------------------------------------
+.footer {
+	background: $gray_dark;
+}
+
+.footer-content {
+	max-width: $site_width;
+	margin: 0 auto;
+	padding: 10px;
+	@include clearfix();
+	color: $white;
+}
+
+.footer-content > * {
+	display: block;
+	text-align: center;
+}
+
+.footer-legal {
+	padding-bottom: 20px;
+}
+
+.footer-legal small {font-size: 12px;}

@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------
+// Box Styles
+//----------------------------------------------------------------------
+.box {
+	padding: 10px;
+	border: 1px solid $gray;
+}
+
+.box_maxHeight300 {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+.box_grayLight {background: $gray_light;}

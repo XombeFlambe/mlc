@@ -1,0 +1,23 @@
+{% macro active(activePage='home') %}
+<!-- ERROR MESSAGE -->
+		<div class="alert alert_message js-close">
+			<div class="alert-content">
+				<span>Check out something that has been updated!</span>
+			</div>
+			<div class="alert-close js-close-trigger"><i class="fa fa-times"></i></div>
+		</div><!-- END ERROR MESSAGE -->
+		<!-- ERROR MESSAGE -->
+		<div class="alert js-close">
+			<div class="alert-content">
+				<span><i class="fa fa-exclamation-triangle"></i> This is an important message from our system!</span>
+			</div>
+			<div class="alert-close js-close-trigger"><i class="fa fa-times"></i></div>
+		</div><!-- END ERROR MESSAGE -->
+		<!-- ERROR MESSAGE -->
+		<div class="alert alert_error js-close">
+			<div class="alert-content">
+				<span><i class="fa fa-exclamation-triangle"></i> Error! Error! Error! Error!</span>
+			</div>
+			<div class="alert-close js-close-trigger"><i class="fa fa-times"></i></div>
+		</div><!-- END ERROR MESSAGE -->
+{%endmacro%}

@@ -1,0 +1,31 @@
+<!-- beta-test-guidelines.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('betaTest')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('beta-test-guidelines')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Guidelines</h2>
+						<p class="pushBtm20">Beta testing is an essential part of our iterative product design process. We look to you, our Authorized Partners, and your clients for your active participation and feedback to help us discover what works with our products, what doesn’t, and why.</p>
+
+						<p class="pushBtm20">By using products in classroom trials or other real-world applications and providing experiential feedback through interviews and online surveys, beta testers play an important role in bringing quality products to market.</p>
+
+						<p class="pushBtm20">Our beta testing process offers the unique opportunity to build successful client relationships, while influencing the latest product designs to help both you and your clients succeed. Beta testing is a low-risk way to try out a product because it’s free.</p>
+
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

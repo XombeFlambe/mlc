@@ -1,0 +1,47 @@
+// ------------------------------------------------------------------
+// Alert
+// ------------------------------------------------------------------
+.alert {
+	//display: none;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: 1000;
+	background: $color_alert;
+	text-align: center;
+}
+
+.alert_error {
+	background: $color_error;
+	color: $white;
+}
+
+.alert_message {
+	background: $brand_dark;
+	color: $white;
+}
+
+.ed .alert_message {background: $ed_brand_dark;}
+.fb .alert_message {background: $fb_brand_dark;}
+.pxt .alert_message {background: $pxt_brand_dark;}
+
+.alert-content {
+	max-width: $site_width - 20px;
+	margin: 0 auto;
+	padding: 20px 30px 20px 10px;
+	font-size: 16px;
+}
+
+.alert i[class*="icon-"] {padding-right: 5px;}
+
+.alert-close {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -10px;
+	font-size: 20px;
+	line-height: 0;
+	cursor: pointer;
+}

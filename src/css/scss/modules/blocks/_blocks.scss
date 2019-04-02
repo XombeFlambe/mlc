@@ -1,0 +1,15 @@
+/*----------------------------------------------------------------------
+ Blocks
+----------------------------------------------------------------------*/
+.blocks {
+	margin-left: 0px;
+}
+
+.blocks > li {
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+.blocks.blocks_marginBtm10 > li {margin-bottom: 10px;}
+.blocks.blocks_marginBtm10 > li:last-child,
+.blocks.blocks_noMarginBtm > li {margin-bottom: 0;}

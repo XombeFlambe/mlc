@@ -1,0 +1,31 @@
+<!-- partner-certification.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('partner')}}
+		{{bar.active('ed')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('partner-certification')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Workplace&reg; Certification</h2>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias pariatur odio earum delectus impedit numquam enim placeat aperiam incidunt sapiente repellendus autem, voluptas cumque officia. Beatae ducimus, placeat vitae similique maxime. Voluptate eius illum, tempora architecto minus neque rem alias consequuntur officiis dolore ut iusto inventore, impedit ullam harum!</p>
+
+						<h3 class="hdg hdg_3 hdg_gray pushBtm20">Workplace Certification Events</h3>
+						{{events.active('ed')}}
+
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+<!-- announcements.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+		{{pageHeader.active('announcements')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				{% include "partials/modules/_announcements.html" %}
+				{% include "partials/modules/_announcements.html" %}
+			</div>
+
+        </div>
+{% endblock %}

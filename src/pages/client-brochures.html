@@ -1,0 +1,25 @@
+<!-- client-brochures.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('client-overview')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('client-brochures')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						{{cards.active('2col-brochures')}}
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

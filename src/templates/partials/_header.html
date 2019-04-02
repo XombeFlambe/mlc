@@ -1,0 +1,58 @@
+{% macro active(activePage='home') %}
+    <body class="
+    {%if (activePage == 'mlc') or (activePage == 'sign-in') %}mlc{% endif %}
+    {%if activePage == 'ed' %}ed{% endif %}
+    {%if activePage == 'fb' %}fb{% endif %}
+    {%if activePage == 'pxt' %}pxt{% endif %}">
+
+        <div class="stickyFooter">
+			<!-- BEGIN HEADER -->
+			<div class="header js-stickyHeader">
+				<div class="header-content js-menu">
+					<div class="header-logo">
+						<a href="mlc-home.html">
+							<img src="./media/images/logo-mlc-white.png" alt="MindLab Connect logo">
+						</a>
+					</div>
+					{%if (activePage == 'mlc') or (activePage == 'ed') or (activePage == 'fb') or (activePage == 'pxt')%}
+					<div class="header-trigger js-menu-trigger">
+						<i class="fa fa-bars"></i>
+					</div>
+					<div class="header-action js-menu-content">
+						<ul class="header-nav">
+							<li><a href="everythingdisc-home.html">Everything DiSC</a></li>
+							<li><a href="pxt-home.html">PXT Select</a></li>
+							<li><a href="fivebehaviors-home.html">Five Behaviors</a></li>
+							<li class="header-dropdown js-dropdown">
+								<span class="header-dropdown-trigger js-dropdown-trigger">
+									<span class="padRight5">Go To</span>
+									<i class="fa fa-chevron-down"></i>
+								</span>
+								<ul class="header-dropdown-content js-dropdown-content">
+									<li><a href="">EPIC</a></li>
+									<li><a href="">PAC</a></li>
+									<li><a href="">BetterTogetherMarketing.com</a></li>
+									<li><a href="">MindLab2018.com</a></li>
+									<li><hr></li>
+									<li><a href="forms.html">Forms</a></li>
+									<li><a href="index.html">*Index Page, Dev Only</a></li>
+									<li><a href="styleguide.html">*Styleguide, Dev Only</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header-search">
+							<div class="search">
+								<input type="search" id="search-example" class="search-input" placeholder="Search for something...">
+								<div class="search-btn"><i class="fa fa-search"></i></div>
+								<input type="submit" value="Search" class="search-submit">
+							</div>
+						</div>
+						<div class="header-logout">
+							<a href="sign-in.html">Log out</a>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+			</div>
+			<div class="header-gap js-stickyHeader-gap"><!-- USED FOR STICKY HEADER --></div>
+{% endmacro %}

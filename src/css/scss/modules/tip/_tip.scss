@@ -1,0 +1,33 @@
+//----------------------------------------------------------------------
+// Tip Styles
+//----------------------------------------------------------------------
+$width: 220px;
+$spike_dimension: 20px;
+
+.tip-content {
+	display: none;
+	width: $width;
+	padding: 10px;
+	margin: 10px 0 20px;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -$width / 2;
+	border-radius: 4px;
+	background: rgba(82,113,119,.95); /*$gray_dark*/
+	z-index: 10;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.tip-spike {
+	position: absolute;
+	left: ($width / 2) - ($spike_dimension / 2);
+	bottom: -7px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 7px solid rgba(82,113,119,.95);
+}

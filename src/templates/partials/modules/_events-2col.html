@@ -1,0 +1,82 @@
+{% macro active(activePage='home') %}
+					<!-- EVENTS 2 COLUMN -->
+					<ul class="blocks blocks_2col">
+						<li>
+							<a href="" class="event 
+							{% if activePage == 'ed' %}event_ed{%endif%}
+							{% if activePage == 'fb' %}event_fb{%endif%}
+							{% if activePage == 'pxt' %}event_pxt{%endif%}">
+								<div>
+									<div class="event-date">
+										<div class="event-date-month">Oct</div>
+										<div class="event-date-day">1</div>
+									</div>
+								</div>
+								<div class="event-text">
+									<h3 class="event-hd">{% if activePage == 'ed' %}Everything DiSC{%endif%}
+									{% if activePage == 'fb' %}Five Behaviors{%endif%}
+									{% if activePage == 'pxt' %}PXT Select{%endif%} Event Title</h3>
+									<p class="event-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim.</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="event 
+							{% if activePage == 'ed' %}event_ed{%endif%}
+							{% if activePage == 'fb' %}event_fb{%endif%}
+							{% if activePage == 'pxt' %}event_pxt{%endif%}">
+								<div>
+									<div class="event-date">
+										<div class="event-date-month">Oct</div>
+										<div class="event-date-day">17</div>
+									</div>
+								</div>
+								<div class="event-text">
+									<h3 class="event-hd">{% if activePage == 'ed' %}Everything DiSC{%endif%}
+									{% if activePage == 'fb' %}Five Behaviors{%endif%}
+									{% if activePage == 'pxt' %}PXT Select{%endif%} Event Title</h3>
+									<p class="event-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim.</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="event 
+							{% if activePage == 'ed' %}event_ed{%endif%}
+							{% if activePage == 'fb' %}event_fb{%endif%}
+							{% if activePage == 'pxt' %}event_pxt{%endif%}">
+								<div>
+									<div class="event-date">
+										<div class="event-date-month">Oct</div>
+										<div class="event-date-day">29</div>
+									</div>
+								</div>
+								<div class="event-text">
+									<h3 class="event-hd">{% if activePage == 'ed' %}Everything DiSC{%endif%}
+									{% if activePage == 'fb' %}Five Behaviors{%endif%}
+									{% if activePage == 'pxt' %}PXT Select{%endif%} Event Title</h3>
+									<p class="event-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim Lorem ipsum dolor.</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="event 
+							{% if activePage == 'ed' %}event_ed{%endif%}
+							{% if activePage == 'fb' %}event_fb{%endif%}
+							{% if activePage == 'pxt' %}event_pxt{%endif%}">
+								<div>
+									<div class="event-date">
+										<div class="event-date-month">Oct</div>
+										<div class="event-date-day">31</div>
+									</div>
+								</div>
+								<div class="event-text">
+									<h3 class="event-hd">{% if activePage == 'ed' %}Everything DiSC{%endif%}
+									{% if activePage == 'fb' %}Five Behaviors{%endif%}
+									{% if activePage == 'pxt' %}PXT Select{%endif%} Event Title</h3>
+									<p class="event-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim.</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<a href="events.html" class="btn btn_ed">View All</a>
+{% endmacro %}

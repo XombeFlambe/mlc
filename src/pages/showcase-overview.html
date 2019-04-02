@@ -1,0 +1,40 @@
+<!-- showcase-overview.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('showcases')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('showcase-overview')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Overview</h2>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias pariatur odio earum delectus impedit numquam enim placeat aperiam incidunt sapiente repellendus autem, voluptas cumque officia. Beatae ducimus, placeat vitae similique maxime. Voluptate eius illum, tempora architecto minus neque rem alias consequuntur officiis dolore ut iusto inventore, impedit ullam harum!</p>
+
+						<div class="iframe pushBtm40">
+							<iframe src="https://play.vidyard.com/Kbw3tUmaaUPLXQahSj2Cxv" frameborder="0" allowfullscreen></iframe>
+						</div>
+
+						<h3 class="hdg hdg_3 hdg_gray pushBtm10">Showcases Schedule</h3>
+						<h4  class="hdg hdg_4 hdg_gray pushBtm20">We offer the following Showcase sessions:</h4>
+
+						<div class="pushBtm40">
+							{{events.active('ed')}}
+						</div>
+
+						<h3 class="hdg hdg_4 hdg_gray pushBtm10">Cancellation Policy</h3>
+						<p>If registration numbers are not greater than 20 people at online registration cut off 3 days prior to the event, Wiley reserves the right to cancel the event.</p>
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

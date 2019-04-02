@@ -1,0 +1,91 @@
+// ------------------------------------------------------------------
+// Announcements
+// ------------------------------------------------------------------
+.announcement {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	@include clearfix();
+}
+
+.announcement-date {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+.announcement-date {
+	display: block;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	border: 2px solid $brand;
+	border-radius: 5px;
+	background: $white;
+	color: $brand;
+	text-align: center;
+	transition: .2s linear;
+}
+
+.announcement-date-month {
+	text-transform: uppercase;
+}
+
+.announcement-date-day {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.announcement-hd {
+	margin: -2px 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	transition: .2s linear;
+}
+
+.announcement-bd {
+	display: block;
+	color: $gray_dark;
+	font-weight: 400;
+}
+
+.announcement_clear {
+	margin-bottom: 10px;
+
+	.announcement-date {margin-bottom: 20px;}
+
+	.announcement-hd {
+		margin: -2px 0 20px 0;
+		color: $brand;
+	}
+
+	.announcement-bd {clear: both;}
+}
+
+.announcement_clear:hover,
+.announcement_clear:focus {
+	.announcement-date {
+		border: 2px solid $brand_dark;
+		color: $brand_dark;
+	}
+
+	.announcement-hd,
+	.announcement-hd {
+		color: $brand_dark;
+	}
+}
+
+.announcement_ed {
+	.announcement-date {background: $ed_brand;}
+	.announcement-hd {color: $ed_brand;}
+}
+
+.announcement_pxt {
+	.announcement-date {background: $pxt_brand;}
+	.announcement-hd {color: $pxt_brand;}
+}
+
+.announcement_fb {
+	.announcement-date {background: $fb_brand;}
+	.announcement-hd {color: $fb_brand;}
+}

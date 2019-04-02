@@ -1,0 +1,35 @@
+//----------------------------------------------------------------------
+// Side Navigation
+//----------------------------------------------------------------------
+.sideNav a {
+	display: block;
+	padding: 6px;
+	border: 2px solid $white;
+	position: relative;
+	color: $gray_dark;
+	font-size: 16px;
+	transition: .2s linear;
+}
+
+.sideNav a.active {background: $gray_light;}
+
+.sideNav a.active,
+.sideNav a:hover,
+.sideNav a:focus {border: 2px solid $gray_light;}
+
+.sideNav a i {
+	float:right;
+	color: $brand;
+}
+
+.ed {
+	.sideNav a i {color: $ed_brand;}
+}
+
+.fb {
+	.sideNav a i {color: $fb_brand;}
+}
+
+.pxt {
+	.sideNav a i {color: $pxt_brand;}
+}

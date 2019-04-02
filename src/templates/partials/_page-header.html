@@ -1,0 +1,26 @@
+{% macro active(activePage='home') %}
+		<div class="pageHeading">
+			<div class="pageHeading-content">
+				{%if activePage == 'search' %}<span class="txt_block txt_bold pushBtm10">3 results for:</span>{% endif %}
+				<h1 class="hdg hdg_1">
+				{%if activePage == 'ed' %}Everything DiSC&reg; {% endif %}
+				{%if activePage == 'styleguide' %}Styleguide{% endif %}
+				{%if activePage == 'events' %}Events{% endif %}
+				{%if activePage == 'announcements' %}Announcements{% endif %}
+				{%if activePage == 'announcement-details' %}Announcement Title Announcement Title{% endif %}
+				{%if activePage == 'resources' %}Resources{% endif%}
+				{%if activePage == 'marketing' %}Marketing{% endif%}
+				{%if activePage == 'marketing-tools' %}Marketing Tools{% endif%}
+				{%if activePage == 'client' %}Client Education{% endif%}
+				{%if activePage == 'partner' %}Partner Education{% endif%}
+				{%if activePage == 'showcases' %}Showcases{% endif%}
+				{%if activePage == 'beta-testing' %}Beta Testing{% endif%}
+				{%if activePage == 'search' %}Logo{% endif %}
+				{%if activePage == 'forms' %}Forms{% endif %}
+				{%if activePage == 'forms-request-customization' %}Request For Customization{% endif %}
+				{%if activePage == 'forms-recognition-award' %}2017 Recognition Award{% endif %}
+				{%if activePage == 'forms-beta-testing' %}Beta Test Enrollment{% endif %}
+				</h1>
+			</div>
+		</div>
+{% endmacro %}

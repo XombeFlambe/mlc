@@ -1,0 +1,58 @@
+<!-- beta-test-facilitation.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('betaTest')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('beta-test-facilitation')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Facilitation</h2>
+						<p class="pushBtm20">Beta testing is an essential part of our iterative product design process. We look to you, our Authorized Partners, and your clients for your active participation and feedback to help us discover what works with our products, what doesn’t, and why.</p>
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Concept Tests</th>
+									<th>Beta Tests</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<ul class="list list_bullet">
+											<li>For Partners</li>
+											<li>Occur at start of development process</li>
+											<li>A small group of people participates</li>
+											<li>Offer a chance to provide high-level feedback about the merits of a product idea or prototype</li>
+											<li>Depending on feedback, concept tests may not lead to a beta version.</li>
+										</ul>
+									</td>
+									<td>
+										<ul class="list list_bullet">
+											<li>For Partners and clients</li>
+											<li>May occur multiple times throughout development process</li>
+											<li>Many people can participate</li>
+											<li>Offer a chance to provide experiential feedback as you "test drive" the products in classroom trials or real-world applications</li>
+											<li>Depending on feedback, beta tests may not lead to a launched product.</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

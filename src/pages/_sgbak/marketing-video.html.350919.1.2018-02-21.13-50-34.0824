@@ -1,0 +1,26 @@
+<!-- marketing-video.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('marketing-tools')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('marketing-videos')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Everything DiSC&reg; Workplace Videos</h2>
+						{{videos.active('')}}
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

@@ -1,0 +1,75 @@
+html,
+body {
+	height: 100% !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: $white;
+    @include baseText();
+}
+
+body * {box-sizing: border-box;}
+
+body > form {
+    height: 100%;
+    margin-bottom: -44px;
+}
+  
+/* Kentico sticky footer fix */
+@media only screen and (max-width: 767px) {
+    body > form {
+        margin-bottom: -82px;
+    }
+}/* Kentico sticky footer fix for mobile */
+
+a {
+	@include baseLink();
+}
+
+a:hover,
+a:focus {color: $brand_dark;}
+
+.ed a {color: $ed_brand;}
+
+.ed a:hover,
+.ed a:focus {color: $ed_brand_dark;}
+
+.fb a {color: $fb_brand;}
+
+.fb a:hover,
+.fb a:focus {color: $fb_brand_dark;}
+
+.pxt a {color: $pxt_brand;}
+
+.pxt a:hover,
+.pxt a:focus {color: $pxt_brand_dark;}
+
+hr {
+	border: none;
+	border-bottom: 1px solid $gray_light;
+}
+
+pre {word-wrap: break-word;}
+
+::selection {
+  background: $brand_light; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $brand_light; /* Gecko Browsers */
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: $gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $gray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $gray;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: $gray;
+  opacity: 1;
+}

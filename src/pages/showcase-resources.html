@@ -1,0 +1,29 @@
+<!-- showcase-resources.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('showcases')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('showcase-resources')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h3 class="hdg hdg_3 hdg_gray pushBtm20">Downloads</h3>
+						{{cards.active('2col-images')}}
+						<hr>
+						<h3 class="hdg hdg_3 hdg_gray pushBtm20">Links</h3>
+						{{cardLinks.active('showcase-marketing')}}
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

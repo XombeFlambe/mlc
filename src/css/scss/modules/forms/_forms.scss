@@ -1,0 +1,115 @@
+form label,
+.form label,
+label {
+	display: inline-block;
+	padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-input {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+.form-input,
+select {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #a8adb3;
+    background: #ffffff;
+    font-family: $font_primary;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+select,
+select.form-input {padding: 6px 7px 7px;}
+
+.form-input:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus  {
+	border: 1px solid $brand;
+    box-shadow: inset 0 0 0 1px $brand;
+}
+
+.form-input.form-input_required {background: #ebf6ec;}
+
+textarea,
+.form-input_area {min-height: 120px;}
+
+.form-input.form-input_noMarginBtm {margin-bottom: 0;}
+
+.form-input.form-input_error {
+    border: 1px solid $color_error;
+    box-shadow: inset 0 0 0 1px $color_error;
+}
+
+.form-error,
+.EditingFormErrorLabel {
+    display: block;
+    margin: -10px 0 10px 0;
+    color: $color_error;
+    font-size: 14px;
+}
+
+.ErrorLabel {
+    display: block;
+    margin-bottom: 10px;
+    color: $color_error;
+}
+
+.ErrorLabel:before,
+.EditingFormErrorLabel:before {
+    display: inline-block;
+    content: "\f071";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+.form-input-status {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.checkbox {
+    td {vertical-align: top;}
+    td:first-child {padding-right: 5px;}
+
+    input[type="checkbox"] {
+        margin: 0 5px 0 0;
+        padding: 0;
+    }
+}
+
+.checkboxForm {display: table;}
+.checkboxForm > * {display: table-cell;}
+
+
+/* Calendar form styles */
+button[title="Calendar"] {
+    min-width: 20px;
+    margin-left: 10px;
+    border-radius: none;
+}
+
+.date-time-picker {display: inline;}
+
+.date-time-picker .btn i.icon-calendar {margin: 0;}
+
+.icon-calendar:before {
+    font-family: FontAwesome;
+    content: "\f073";
+}
+
+.labelRequest {
+    background:#ccc;
+    font-size:18px;
+    font-weight: 800;
+    padding: 4px 20px 4px 6px;
+}/* End Calendar form styles */

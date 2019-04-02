@@ -1,0 +1,44 @@
+<!-- forms-recognition-award.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+		{{pageHeader.active('forms-recognition-award')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_2of3">
+						<p class="txt_med pushBtm20">Please complete the following form to indicate how you want your award to be customized, or to opt-out of receiving an award this year. Please be sure to complete the form by <span class="txt_bold">February 16, 2018</span>. If we do not receive your completed form, and you do not opt out, your award will be customized with your company name we have on file.</p>
+
+						<div class="form">
+							<label for="personal-select">Would you like to receive a personalized award?</label>
+							<select name="personal-select" id="personal-select" class="form-input form-input_required">
+								<option value="">Please select</option>
+								<option value="">Yes</option>
+								<option value="">No</option>
+							</select>
+							<label for="partner-id">Partner ID</label>
+							<input type="text" id="partner-id" class="form-input form-input_required form-input_error">
+							<div class="form-error"><i class="fa fa-exclamation-triangle padRight5"></i> Please enter your Partner ID</div>
+							<label for="first-name">First Name</label>
+							<input type="first-name" id="first-name" class="form-input form-input_required">
+							<label for="last-name">Last Name</label>
+							<input type="text" id="last-name" class="form-input form-input_required">
+
+							<div class="wrap pushTop20">
+								<input type="submit" class="btn" value="Submit">
+							</div>
+						</div>
+
+					</div>
+					<div class="grid-col grid-col_1of3">
+						
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

@@ -1,0 +1,126 @@
+// ------------------------------------------------------------------
+// Header
+// ------------------------------------------------------------------
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 58px;
+	margin: 0;
+	z-index: 100;
+	padding: 10px 0;
+	background: $gray_dark;
+	color: $white;
+	font-size: 12px;
+}
+
+.header-content {
+	width: 100%;
+	max-width: $site_width;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-content > * {
+	display: block;
+}
+
+.header-logo {
+	line-height: 0;
+	padding: 0 20px 0 10px;
+	margin: 12px 0;
+}
+
+.header-logo img {width: 240px;}
+
+.header-trigger {
+	position: absolute;
+	top: -9px;
+	right: 10px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.header-action {
+	display: none;
+	width: 100%;
+	padding: 0 10px;
+	position: absolute;
+	top: 34px;
+	background: $gray_dark;
+}
+
+.header-nav {
+	border-top: 1px solid $white;
+	border-bottom: 1px solid $white;
+	margin-bottom: 10px;
+}
+
+.header-nav > li {
+	display: block;
+}
+
+.header-nav > li > * {
+	display: block;
+	padding: 10px 0;
+	color: $white;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.header-nav > li > *:hover,
+.header-nav > li > *:focus {color: $brand_light;}
+
+.header-dropdown {
+	position: relative;
+
+	.header-dropdown-trigger {
+		display: block;
+		cursor: pointer;
+	}
+
+	.header-dropdown-trigger i {transition: transform .2s linear;}
+	.header-dropdown-trigger.active i {transform: rotateX(180deg);}
+
+	.header-dropdown-content {display: none;}
+
+	.header-dropdown-content a {
+		display: block;
+		padding: 5px 10px;
+		color: $white;
+		font-weight: 400;
+	}
+
+	.header-dropdown-content a:hover,
+	.header-dropdown-content a:focus {color: $brand_light;}
+
+	.header-dropdown-content li:first-child a {padding-top: 0;}
+}
+
+
+.header-search {
+	display: inline-block;
+	width: 80%;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.header-logout {
+	display: inline-block;
+	width: 19%;
+	text-align: right;
+}
+
+.header-logout a {
+	display: inline-block;
+	padding-top: 4px;
+	color: $white;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.header-logout a:hover,
+.header-logout a:focus {color: $brand_light;}
+
+.header-gap {height: 58px;}

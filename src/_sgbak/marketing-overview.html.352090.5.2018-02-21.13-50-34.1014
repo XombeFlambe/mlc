@@ -1,0 +1,250 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MindLab Connect</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- STYLESHEETS -->
+        <!--build:css css/css/modern.min.css-->
+        <!-- endbuild -->
+        <link rel="stylesheet" href="./css/css/modern.css">
+
+        
+        <!-- build:css css/css/legacy.min.css-->
+        <!--[if lt IE 9]> 
+            <link rel="stylesheet" href="css/css/legacy.css">
+            <link rel="stylesheet" href="css/css/ie.css">
+        <![endif]-->
+        <!-- endbuild -->
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b8810f3cf5.js"></script>
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- START MAIN CONTENT -->
+
+
+		
+    <body class="
+
+ed
+
+">
+
+        <div class="stickyFooter">
+			<!-- BEGIN HEADER -->
+			<div class="header js-stickyHeader">
+				<div class="header-content js-menu">
+					<div class="header-logo">
+						<a href="mlc-home.html">
+							<img src="./media/images/logo-mlc-white.png" alt="MindLab Connect logo">
+						</a>
+					</div>
+
+					<div class="header-trigger js-menu-trigger">
+						<i class="fa fa-bars"></i>
+					</div>
+					<div class="header-action js-menu-content">
+						<ul class="header-nav">
+							<li><a href="everythingdisc-home.html">Everything DiSC</a></li>
+							<li><a href="pxt-home.html">PXT Select</a></li>
+							<li><a href="fivebehaviors-home.html">Five Behaviors</a></li>
+							<li class="header-dropdown js-dropdown">
+								<span class="header-dropdown-trigger js-dropdown-trigger">
+									<span class="padRight5">Go To</span>
+									<i class="fa fa-chevron-down"></i>
+								</span>
+								<ul class="header-dropdown-content js-dropdown-content">
+									<li><a href="">EPIC</a></li>
+									<li><a href="">PAC</a></li>
+									<li><a href="">BetterTogetherMarketing.com</a></li>
+									<li><a href="">MindLab2018.com</a></li>
+									<li><hr></li>
+									<li><a href="forms.html">Forms</a></li>
+									<li><a href="index.html">*Index Page, Dev Only</a></li>
+									<li><a href="styleguide.html">*Styleguide, Dev Only</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header-search">
+							<div class="search">
+								<input type="search" id="search-example" class="search-input" placeholder="Search for something...">
+								<div class="search-btn"><i class="fa fa-search"></i></div>
+								<input type="submit" value="Search" class="search-submit">
+							</div>
+						</div>
+						<div class="header-logout">
+							<a href="sign-in.html">Log out</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="header-gap js-stickyHeader-gap"><!-- USED FOR STICKY HEADER --></div>
+
+		
+		<div class="brandHeading">
+			<div class="brandHeading-content js-brandHeader">
+<img src="./media/images/logo-ed-white.png" alt="" class="imgResponsive">
+
+
+			</div>
+		</div>
+
+		
+		<div class="subNav js-stickySubNav ">
+			<div class="subNav-content js-dropdown">
+				<div class="subNav-trigger js-dropdown-trigger">
+<span>Everything DiSC</span>
+
+
+					<span class="subNav-trigger-icon"><i class="fa fa-chevron-down"></i></span>
+				</div>
+				<ul class="subNav-list js-dropdown-content">
+
+					<li><a href="resources.html">Resources</a></li>
+					<li><a href="marketing.html">Marketing</a></li>
+					<li><a href="client-overview.html">Client Education</a></li>
+					<li><a href="partner-overview.html">Partner Education</a></li>
+					<li><a href="showcases.html">Showcases</a></li>
+					<li><a href="beta-test-overview.html">Beta Testing</a></li>
+
+
+
+				</ul>
+			</div>
+		</div>
+		<div class="js-stickySubNav-gap"></div>
+
+		
+		<div class="pageHeading">
+			<div class="pageHeading-content">
+
+				<h1 class="hdg hdg_1">
+
+
+
+
+
+
+
+Marketing Tools
+
+
+
+
+
+
+				</h1>
+			</div>
+		</div>
+
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						
+
+
+		<ul class="sideNav">
+			<li><a href="marketing-overview.html" class="active">Product Overview </a></li>
+			<li><a href="marketing-images.html" class="">Images <i class="fa fa-exclamation"></i></a></li>
+			<li><a href="marketing-brochures.html" class="">Brochures </a></li>
+			<li><a href="marketing-email-templates.html" class="">Email Templates </a></li>
+			<li><a href="marketing-success-stories.html" class="">Success Stories </a></li>
+			<li><a href="marketing-slide-presentations.html" class="">Slide Presentations </a></li>
+			<li><a href="marketing-video.html" class="">Video </a></li>
+		</ul>
+
+
+
+
+
+
+
+
+
+
+		<hr class="isHiddenDesktop">
+
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Overview</h2>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias pariatur odio earum delectus impedit numquam enim placeat aperiam incidunt sapiente repellendus autem, voluptas cumque officia. Beatae ducimus, placeat vitae similique maxime. Voluptate eius illum, tempora architecto minus neque rem alias consequuntur officiis dolore ut iusto inventore, impedit ullam harum!</p>
+
+						<h3 class="hdg hdg_3 hdg_gray pushBtm20">Description</h3>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quis, dolor. Laborum neque veritatis, dolor cum consequuntur, autem sint nihil modi nisi deserunt ducimus cumque optio ipsum! Fuga eligendi adipisci nesciunt reprehenderit laborum. Est laboriosam explicabo officiis accusantium! Deleniti officiis, excepturi, iusto quas error nam. Eum debitis officiis at. Veritatis debitis aliquam ex libero soluta ipsam quasi quo dolore delectus facilis odit temporibus fugiat enim vero architecto esse ipsa consectetur provident, aperiam ratione sunt explicabo. Dolor reprehenderit natus blanditiis, veritatis possimus. Omnis voluptatibus perspiciatis delectus eveniet, nisi ad libero nemo iusto illum minima voluptatum distinctio, fuga beatae facere possimus incidunt.</p>
+
+						<h4 class="hdg hdg_4 hdg_gray pushBtm20">Learner Take-Aways</h4>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam quaerat similique quasi, cum delectus id beatae eos ullam. Aspernatur.</p>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos impedit facilis quaerat culpa vero labore mollitia explicabo temporibus earum veniam exercitationem tempore eum eius voluptatibus sint numquam sequi, quia ea voluptate neque! Animi, sit perferendis.</p>
+
+					<!-- BEGIN DRAWER MODULE -->
+					<div class="drawer js-drawer">
+					    <div class="drawer-trigger js-drawer-trigger">
+					        <a href="javascript:void(0)"><i class="fa fa-chevron-right"></i> <h3 class="hdg hdg_3 hdg_inlineBlock padLeft5">Drawer Trigger</h3></a>
+					    </div>
+					    <div class="drawer-content js-drawer-content">
+							<p><span class="txt_bold">Multiple Drawers can be open at the same time.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias assumenda repellat ipsa at rem perferendis neque consequatur ut hic? Architecto consequatur neque doloribus sunt eaque eveniet sit laboriosam, libero quod harum animi minus modi officiis error minima laudantium eligendi mollitia commodi, quam ea. Fuga culpa maiores fugiat, rerum labore modi sapiente, quia alias eligendi dolores doloremque dolor eum omnis deleniti! Non impedit blanditiis temporibus adipisci ipsa! Excepturi doloribus saepe quia, autem at dicta quod distinctio delectus, hic. Impedit saepe necessitatibus sed non recusandae quod tempora dolore. Eius aliquid voluptatibus officia, architecto placeat magnam at beatae dolores sed, nostrum modi aut.</p>
+					    </div>
+					</div><!-- END DRAWER MODULE -->
+					<!-- BEGIN DRAWER MODULE -->
+					<div class="drawer js-drawer">
+					    <div class="drawer-trigger js-drawer-trigger">
+					        <a href="javascript:void(0)"><i class="fa fa-chevron-right"></i> <h3 class="hdg hdg_3 hdg_inlineBlock padLeft5">Drawer Trigger</h3></a>
+					    </div>
+					    <div class="drawer-content js-drawer-content">
+							<p><span class="txt_bold">Multiple Drawers can be open at the same time.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias assumenda repellat ipsa at rem perferendis neque consequatur ut hic? Architecto consequatur neque doloribus sunt eaque eveniet sit laboriosam, libero quod harum animi minus modi officiis error minima laudantium eligendi mollitia commodi, quam ea. Fuga culpa maiores fugiat, rerum labore modi sapiente, quia alias eligendi dolores doloremque dolor eum omnis deleniti! Non impedit blanditiis temporibus adipisci ipsa! Excepturi doloribus saepe quia, autem at dicta quod distinctio delectus, hic. Impedit saepe necessitatibus sed non recusandae quod tempora dolore. Eius aliquid voluptatibus officia, architecto placeat magnam at beatae dolores sed, nostrum modi aut.</p>
+					    </div>
+					</div><!-- END DRAWER MODULE -->
+					</div>
+				</div>
+			</div>
+
+        </div>
+<!-- END MAIN CONTENT -->
+        </div><!-- END STICKY FOOTER -->
+
+		<!-- FOOTER -->
+        <div class="footer" role="contentinfo">
+            <div class="footer-content">
+                <div class="footer-legal">
+                    <small>&copy; <script>new Date().getFullYear()>2010&&document.write(""+new Date().getFullYear());</script> by John Wiley &amp; Sons, Inc. All rights reserved.</small>
+                </div>
+                <div class="footer-logo">
+                    <img src="media/images/logo-wiley-white.png" alt="Wiley logo">
+                </div>
+            </div>
+        </div><!-- END FOOTER -->
+
+        <!-- BACK TO TOP OF PAGE BUTTON -->
+        <a href="#" class="topside js-topside">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+        <!--build:js js/main.min.js -->
+        <!-- endbuild -->
+        <script src="./js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

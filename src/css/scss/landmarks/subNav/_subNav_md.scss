@@ -1,0 +1,28 @@
+// ------------------------------------------------------------------
+// subNav, Med
+// ------------------------------------------------------------------
+.subNav-content {
+	max-width: $site_width;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.subNav-trigger {display: none;}
+
+.subNav-list {
+	display: block !important;
+	border: none;
+}
+
+.subNav-list > li {
+	display: inline-block;
+}
+
+.subNav-list > li > a {
+	display: inline-block;
+	padding: 15px 0;
+	margin-right: 40px;
+	color: $white;
+	font-size: 18px;
+	font-weight: 400;
+}

@@ -1,0 +1,51 @@
+<!-- client-details.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+		{{pageHeader.active('client')}}
+
+        <div class="wrap wrap_content">
+
+			<div class="wrap wrap_section">
+				<div class="grid">
+					<div class="grid-col grid-col_1of3">
+						{{sideNav.active('client-details')}}
+					</div>
+					<div class="grid-col grid-col_2of3">
+						<h2 class="hdg hdg_2 hdg_gray pushBtm20">Workplace Certification</h2>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias pariatur odio earum delectus impedit numquam enim placeat aperiam incidunt sapiente repellendus autem, voluptas cumque officia. Beatae ducimus, placeat vitae similique maxime. Voluptate eius illum, tempora architecto minus neque rem alias consequuntur officiis dolore ut iusto inventore, impedit ullam harum!</p>
+
+						<div class="iframe pushBtm40">
+							<iframe src="https://play.vidyard.com/Kbw3tUmaaUPLXQahSj2Cxv" frameborder="0" allowfullscreen></iframe>
+						</div>
+
+						<h3 class="hdg hdg_3 hdg_gray pushBtm20">Clients earn certification through their preferred mode of learning:</h3>
+						<ul class="blocks blocks_2col blocks_vLine pushBtm20">
+							<li>
+								<h4 class="hdg hdg_4 hdg_gray pushBtm10">In-person Course</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tempora reiciendis quibusdam nihil tempore nulla ea repellat mollitia natus. Debitis?</p>
+							</li>
+							<li>
+								<h4 class="hdg hdg_4 hdg_gray pushBtm10">Online Course</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ea repudiandae magni molestiae, fugiat doloremque inventore beatae dolor. Repudiandae, tenetur.</p>
+							</li>
+						</ul>
+
+						<hr class="pushTop20 pushBtm20">
+							<span class="txt txt_med padLeft10 padRight10">Find Workplace Certification brochures and more in <a href="marketing-brochures.html">Marketing</a></span>
+						<hr class="pushTop20 pushBtm20">
+
+						<h3 class="hdg hdg_3 hdg_gray pushBtm10">Workplace Certification Schedule</h3>
+						<h4  class="hdg hdg_4 hdg_gray pushBtm20">We offer the following Workplace Certification sessions:</h4>
+
+						{{events.active('ed')}}
+					</div>
+				</div>
+			</div>
+
+        </div>
+{% endblock %}

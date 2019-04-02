@@ -1,0 +1,86 @@
+// ------------------------------------------------------------------
+// Event
+// ------------------------------------------------------------------
+.event {
+	display: table;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.event > * {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.event-date {
+	display: block;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	border-radius: 5px;
+	background: $brand;
+	color: $white;
+	text-align: center;
+	transition: .2s linear;
+}
+
+.event-date-month {
+	text-transform: uppercase;
+}
+
+.event-date-day {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.event-text {
+	width: 95%;
+	padding: 0 10px;
+	color: $gray_dark;
+	font-weight: 400;
+}
+
+.event-hd {
+	color: $brand;
+	font-weight: 700;
+	transition: .2s linear;
+}
+
+.event:hover,
+.event:focus {
+	.event-date {background: $brand_dark;}
+	.event-hd {color: $brand_dark;}
+}
+
+.event_ed {
+	.event-date {background: $ed_brand;}
+	.event-hd {color: $ed_brand;}
+}
+
+.event_ed:hover,
+.event_ed:focus {
+	.event-date {background: $ed_brand_dark;}
+	.event-hd {color: $ed_brand_dark;}
+}
+
+.event_pxt {
+	.event-date {background: $pxt_brand;}
+	.event-hd {color: $pxt_brand;}
+}
+
+.event_pxt:hover,
+.event_pxt:focus {
+	.event-date {background: $pxt_brand_dark;}
+	.event-hd {color: $pxt_brand_dark;}
+}
+
+.event_fb {
+	.event-date {background: $fb_brand;}
+	.event-hd {color: $fb_brand;}
+}
+
+.event_fb:hover,
+.event_fb:focus {
+	.event-date {background: $fb_brand_dark;}
+	.event-hd {color: $fb_brand_dark;}
+}

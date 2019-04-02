@@ -1,0 +1,41 @@
+// ------------------------------------------------------------------
+// Masonry
+// ------------------------------------------------------------------
+.masonry,
+.masonry-col {
+	display: block;
+}
+
+.masonry-col {padding: 20px 10px;}
+
+.masonry-col_noPad {padding: 0;}
+
+.masonry-col_gray {background: $gray;}
+.masonry-col_grayLight {background: $gray_light;}
+.masonry-col_grayDark {background: $gray_dark;}
+
+.masonry-col_mlc {background: $brand_secondary_light;}
+.ed .masonry-col_sm {background: $ed_brand_light;}
+.fb .masonry-col_sm {background: $fb_brand_light;}
+.pxt .masonry-col_sm {background: $pxt_brand_secondary;}
+
+.masonry-col_grayDark,
+.ed .masonry-col_sm,
+.fb .masonry-col_sm {color: $white;}
+
+.masonry-col_bgImg {
+	padding: 25% 10px;
+	background-image: url(../../media/images/mlc-btm-feature.jpg); /* ~/App_Themes/MLC_Modern/imgs/mlc-btm-feature.jpg */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mlc .masonry-col_bgImg {padding: 20px 10px;}
+
+.ed .masonry-col_bgImg {background-image: url(../../media/images/hero-ed.png);} /* ~/App_Themes/MLC_Modern/imgs/hero-ed.png */
+.fb .masonry-col_bgImg {background-image: url(../../media/images/hero-fb.png);} /* ~/App_Themes/MLC_Modern/imgs/hero-fb.png */
+.pxt .masonry-col_bgImg {background-image: url(../../media/images/hero-pxt.png);} /* ~/App_Themes/MLC_Modern/imgs/hero-pxt.png */
+
+.masonry-col-max400 {max-width: 400px;}
+

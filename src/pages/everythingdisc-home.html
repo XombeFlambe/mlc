@@ -1,0 +1,40 @@
+<!-- everythingdisc-home.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('ed')}}
+		{{brandHeader.active('ed')}}
+		{{subNav.active('ed')}}
+
+        <div class="wrap wrap_content">
+
+			<!-- BEGIN MASONRY SECTION -->
+			<div class="masonry">
+				<div class="masonry-col masonry-col_1of3 masonry-col_grayLight">
+					<span class="txt_upper txt_block pushBtm20">Extend the learning</span>
+					<div class="wrap pushBtm20">
+						<img src="./media/images/ed-logo.png" alt="Everything DiSC logo" class="imgResponsive img240">
+					</div>
+					<p class="pushBtm40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, itaque in assumenda labore eveniet, ab accusamus dicta! Laboriosam, alias, iste!</p>
+					<a href="" class="btn btn_mlc">Learn More</a>
+				</div>
+				<div class="masonry-col masonry-col_2of3 masonry-col_bgImg"></div>
+			</div><!-- END MASONRY SECTION -->
+
+			<!-- BEGIN MASONRY SECTION -->
+			<div class="masonry">
+				<div class="masonry-col masonry-col_1of3 masonry-col_sm">
+					<span class="txt_upper txt_block pushBtm20">Don't miss out</span>
+					<h2 class="hdg hdg_2 hdg_white pushBtm20">The Better Together Marketing Program</h2>
+					<p class="pushBtm40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, itaque in assumenda labore eveniet, ab accusamus dicta! Laboriosam, alias, iste!</p>
+					<a href="" class="btn btn_mlc">Join Now</a>
+					<a href="" class="link_white">Learn More</a>
+				</div>
+				<div class="masonry-col masonry-col_2of3">
+					{{events.active('ed')}}
+				</div>
+			</div><!-- END MASONRY SECTION -->
+
+        </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------
+//  Pagination Styles
+//----------------------------------------------------------------------
+.paginate {
+	display: inline-block;
+	padding: 5px 0 2px;
+	@include clearfix();
+	font-size: 14px;
+}
+
+.paginate > li {
+	margin-right: 10px;
+	float: left;
+}
+
+.paginate > li:last-child {
+	margin-right: 0;
+}
+
+.paginate > li > a {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	padding: 4px 0;
+	border-radius: 50%;
+	color: $brand;
+	text-align: center;
+}
+
+.paginate > li:first-child > a,
+.paginate > li:last-child > a {
+	color: $brand;
+}
+
+.paginate > li > a.active {
+	background: $gray_dark;
+	color: $white;
+	cursor: default;
+}

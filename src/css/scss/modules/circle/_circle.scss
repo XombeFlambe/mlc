@@ -1,0 +1,34 @@
+//----------------------------------------------------------------------
+// Circle Styles
+//----------------------------------------------------------------------
+.circle {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	padding-top: 5px;
+	border-radius: 50%;
+	background: $gray_dark;
+	position: relative;
+	color: $white;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.circle_count {
+	width: 18px;
+	height: 18px;
+	padding-top: 2px;
+	background: $brand_secondary;
+	font-size: 12px;
+}
+
+.circle_brandLight {background: $brand_light;}
+.circle_brand {background: $brand;}
+.circle_brandDark {background: $brand_dark;}
+.circle_brandSecondary {background: $brand_secondary;}
+.circle_brandSecondaryDark {background: $brand_secondary_dark;}
+.circle_ed {background: $ed_brand;}
+.circle_fb {background: $fb_brand;}
+.circle_pxt {background: $pxt_brand;}
+.circle_yellow {background: $color_alert;}

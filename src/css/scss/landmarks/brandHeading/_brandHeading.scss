@@ -1,0 +1,16 @@
+// ------------------------------------------------------------------
+// Brand Heading
+// ------------------------------------------------------------------
+.brandHeading-content {
+	max-width: $site_width;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.brandHeading img {width: 200px;}
+
+.mlc .brandHeading {background: $brand;}
+.ed .brandHeading {background: $ed_brand;}
+.fb .brandHeading {background: $fb_brand;}
+.pxt .brandHeading {background: $pxt_brand;}

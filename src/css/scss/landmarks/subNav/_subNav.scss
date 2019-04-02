@@ -1,0 +1,71 @@
+// ------------------------------------------------------------------
+// subNav
+// ------------------------------------------------------------------
+.subNav {
+	display: block;
+	border-top: 2px solid $white;
+	border-bottom: 2px solid $white;
+	background: $brand;
+}
+
+.subNav_fixed {
+	width: 100%;
+	position: fixed;
+	right: 0;
+	z-index: 99;
+}
+
+.subNav-content {
+	max-width: $site_width;
+	margin: 0 auto;
+	padding: 0 10px 5px;
+}
+
+.subNav-trigger {
+	display: table;
+	width: 100%;
+	padding: 10px 0;
+	color: $white;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.subNav-trigger > * {display:table-cell;}
+
+.subNav-trigger-icon {text-align: right;}
+
+.subNav-trigger i {
+	transition: transform .2s linear;
+}
+
+.subNav-trigger.active i {transform: rotateX(180deg);}
+
+.subNav-list {
+	display: none;
+	border-top: 1px solid $white;
+}
+
+.subNav-list > li {
+	display: block;
+}
+
+.subNav-list > li > a {
+	display: inline-block;
+	padding: 7px 10px;
+	margin-right: 40px;
+	color: $white;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.subNav-list > li > a:hover,
+.subNav-list > li > a:focus {color: $gray_light;}
+
+.subNav-list > li > a.active {
+	color: $gray_dark;
+	font-weight: 700;
+}
+
+.ed .subNav {background: $ed_brand;}
+.fb .subNav {background: $fb_brand;}
+.pxt .subNav {background: $pxt_brand;}

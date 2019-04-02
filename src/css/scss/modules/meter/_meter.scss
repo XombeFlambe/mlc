@@ -1,0 +1,43 @@
+//----------------------------------------------------------------------
+// Meter Styles
+//----------------------------------------------------------------------
+.meter {
+	width: 100%;
+	margin: -10px 0 20px;
+	@include clearfix();
+}
+
+.meter > * {
+	float: left;
+	vertical-align: middle;
+}
+
+.meter-bar {
+	width: 85%;
+	height: 5px;
+	background: $gray;
+}
+
+.meter-bar-level {height: 5px;}
+
+.meter-text {
+	width: 15%;
+	margin-top: -4px;
+	font-size: 12px;
+	text-align: right;
+}
+
+.meter-bar-level.weak {
+	width: 33.33%;
+	background: $color_error;
+}
+
+.meter-bar-level.medium {
+	width: 66.66%;
+	background: $color_alert;
+}
+
+.meter-bar-level.strong {
+	width: 100%;
+	background: $color_success;
+}

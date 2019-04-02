@@ -1,0 +1,132 @@
+/*----------------------------------------------------------------------
+ Button - Yay, buttons!
+----------------------------------------------------------------------*/
+.btn,
+a.btn,
+button.btn {
+    display: inline-block;
+    min-width: 120px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    background: $gray_dark;
+    font-family: $font_primary;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    transition: color .3s, background .3s;
+}
+
+.btn:hover,
+.btn:focus,
+a.btn:hover,
+a.btn:focus,
+button.btn:hover,
+button.btn:focus {
+    cursor: pointer;
+    text-decoration: none;
+    background: $gray;
+    color: $white;
+}
+
+.mlc .btn,
+.mlc a.btn,
+.mlc button.btn {
+    background: $brand_dark;
+}
+
+.mlc .btn:hover,
+.mlc .btn:focus,
+.mlc a.btn:hover,
+.mlc a.btn:focus,
+.mlc button.btn:hover,
+.mlc button.btn:focus {
+    background: $brand;
+}
+
+.ed .btn,
+.ed a.btn,
+.ed button.btn {
+    background: $ed_brand_dark;
+    color: $white;
+}
+
+.ed .btn:hover,
+.ed a.btn:hover,
+.ed button.btn:hover,
+.ed .btn:focus,
+.ed a.btn:focus,
+.ed button.btn:focus {
+    background: $ed_brand;
+}
+
+.pxt .btn,
+.pxt a.btn,
+.pxt button.btn {
+    background: $pxt_brand_dark;
+}
+
+.pxt .btn:hover,
+.pxt a.btn:hover,
+.pxt button.btn:hover,
+.pxt .btn:focus,
+.pxt a.btn:focus,
+.pxt button.btn:focus {
+    background: $pxt_brand;
+    color: $white;
+}
+
+.btn.btn_secondary,
+a.btn.btn_secondary,
+button.btn.btn_secondary {
+    padding: 7px 14px;
+    color: $gray_dark;
+    background: $white;
+    border: 1px solid $gray_dark;
+}
+
+.btn.btn_secondary:hover,
+.btn.btn_secondary:focus,
+a.btn.btn_secondary:hover,
+a.btn.btn_secondary:focus,
+button.btn.btn_secondary:hover,
+button.btn.btn_secondary:focus {
+    border: 1px solid $gray_dark;
+    background: $gray_light;
+}
+
+@mixin btn_disabled() {
+    color: $white;
+    background: $gray_light;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn:disabled,
+[disabled="disabled"],
+.btn.inActive,
+a.btn:disabled,
+a.btn.inActive,
+button.btn:disabled,
+button.btn.inActive {
+    @include btn_disabled();
+}
+
+.mlc,
+.ed,
+.fb,
+.pxt {
+    .btn:disabled,
+    [disabled="disabled"],
+    .btn.inActive,
+    a.btn:disabled,
+    a.btn.inActive,
+    button.btn:disabled,
+    button.btn.inActive {
+        @include btn_disabled();
+    }
+}
+
+.btn.btn_noMarginRight {margin-right: 0;}

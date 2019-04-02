@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MindLab Connect</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- STYLESHEETS -->
+        <!--build:css css/css/modern.min.css-->
+        <!-- endbuild -->
+        <link rel="stylesheet" href="./css/css/modern.css">
+
+        
+        <!-- build:css css/css/legacy.min.css-->
+        <!--[if lt IE 9]> 
+            <link rel="stylesheet" href="css/css/legacy.css">
+            <link rel="stylesheet" href="css/css/ie.css">
+        <![endif]-->
+        <!-- endbuild -->
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b8810f3cf5.js"></script>
+    </head>
+
+    {% import 'partials/_header.html' as header %}
+            {% import 'partials/_alert.html' as alert %}
+            {% import 'partials/_brand-header.html' as brandHeader %}
+            {% import 'partials/_subNav.html' as subNav %}
+            {% import 'partials/_page-header.html' as pageHeader %}
+            {% import 'partials/_sideNav.html' as sideNav %}
+
+            {% import 'partials/modules/_cards.html' as cards %}
+            {% import 'partials/modules/_cards-links.html' as cardLinks %}
+            {% import 'partials/modules/_events-2col.html' as events %}
+            {% import 'partials/modules/_bar.html' as bar %}
+            {% import 'partials/modules/_videos.html' as videos %}
+
+            <!-- START MAIN CONTENT -->
+            {% block content %} {% endblock %}<!-- END MAIN CONTENT -->
+        </div><!-- END STICKY FOOTER -->
+
+        {% include "partials/_footer.html" %}
+
+        <!--build:js js/main.min.js -->
+        <!-- endbuild -->
+        <script src="./js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+//----------------------------------------------------------------------
+// Table Styles
+//----------------------------------------------------------------------
+.table {
+	width: 100%;
+	margin: 0 auto;
+
+	thead {
+		color: $gray_dark;
+		font-size: 18px;
+		text-align: left;
+
+		th {
+			padding: 5px 0;
+			font-weight: 700;
+		}
+	}
+
+	td {
+		padding: 5px 5px;
+		border-bottom: 1px solid $gray_light;
+		vertical-align: middle;
+	}
+
+	td.alignTop {vertical-align: top;}
+
+}
+
+.table_alt {
+	tr:nth-child(2n) {background: $gray_light;}
+}

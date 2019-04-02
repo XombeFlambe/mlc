@@ -1,0 +1,9 @@
+{% macro active(activePage='home') %}
+		<div class="brandHeading">
+			<div class="brandHeading-content js-brandHeader">
+				{%if activePage == 'ed' %}<img src="./media/images/logo-ed-white.png" alt="" class="imgResponsive">{% endif %}
+				{%if activePage == 'fb' %}<img src="./media/images/logo-fb-white.png" alt="" class="imgResponsive">{% endif %}
+				{%if (activePage == 'styleguide') or (activePage == 'pxt') %}<img src="./media/images/logo-pxt-white.png" alt="" class="imgResponsive">{% endif %}
+			</div>
+		</div>
+{% endmacro %}

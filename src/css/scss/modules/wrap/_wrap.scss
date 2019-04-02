@@ -1,0 +1,34 @@
+/*----------------------------------------------------------------------
+ Wraps
+----------------------------------------------------------------------*/
+.wrap {
+	position: relative;
+}
+
+.wrap_content {
+	max-width: $site_width;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.wrap_section {
+	padding: 20px 10px;
+	//border-left: 1px solid $gray_light;
+	//border-right: 1px solid $gray_light;
+}
+
+.wrap_sm {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.wrap_pad {padding: 10px;}
+
+.wrap_border {border: 1px solid $gray;}
+
+.wrap_alignCenter {text-align: center;}
+.wrap_alignRight {text-align: right;}
+
+.wrap_white {background: $white;}
+.wrap_gray {background: $gray;}
+.wrap_grayLight {background: $gray_light;}

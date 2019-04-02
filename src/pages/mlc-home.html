@@ -1,0 +1,46 @@
+<!-- mlc-home.nunjucks -->
+{% extends "layout.html" %}
+
+{% block content %}
+
+		{{header.active('mlc')}}
+
+        <div class="wrap wrap_content">
+
+			<!-- BEGIN MASONRY SECTION -->
+			<div class="masonry">
+				<div class="masonry-col masonry-col_2of3 masonry-col_bgImg">
+					<div class="masonry-col-max400">
+						<span class="txt_upper txt_block pushBtm10">Introducing</span>
+						<h2 class="hdg hdg_1 pushBtm10">
+							<span class="txt_inlineBlock">The Better Together </span>
+							<span class="txt_inlineBlock">Marketing Program</span>
+						</h2>
+						<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, itaque in assumenda labore eveniet, ab accusamus dicta! Laboriosam, alias, iste!</p>
+						<a href="" class="btn btn_mlc">Learn More</a>
+						<a href="">Sign In</a>
+					</div>
+				</div>
+				<div class="masonry-col masonry-col_1of3 masonry-col_mlc">
+					<span class="txt_upper txt_block pushBtm10">Beta Testing</span>
+					<h2 class="hdg hdg_2 pushBtm10">Contribute to the cutting edge of product development</h2>
+					<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, itaque in assumenda labore eveniet, ab accusamus dicta! Laboriosam, alias, iste!</p>
+					<a href="" class="btn btn_mlc">Sign Up</a>
+					<a href="">Learn More</a>
+				</div>
+			</div><!-- END MASONRY SECTION -->
+
+			<!-- BEGIN ANNOUNCEMENTS SECTION -->
+			<div class="wrap wrap_section wrap_grayLight">
+				<h2 class="hdg hdg_2 pushBtm20">Announcements</h2>
+				{% include "partials/modules/_announcements-home.html" %}
+			</div><!-- END ANNOUNCEMENTS SECTION -->
+
+			<!-- BEGIN EVENTS SECTION -->
+			<div class="wrap wrap_section">
+				<h2 class="hdg hdg_2 pushBtm20">Events</h2>
+				{% include "partials/modules/_events-3col.html" %}
+			</div><!-- END EVENTS SECTION -->
+
+        </div>
+{% endblock %}

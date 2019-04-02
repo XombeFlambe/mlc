@@ -1,0 +1,26 @@
+/*----------------------------------------------------------------------
+ Topside
+----------------------------------------------------------------------*/
+.topside {
+	display: none;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 9;
+	border: 2px solid $white;
+	border-radius: 50%;
+	background: $gray_dark;
+	opacity: .8;
+	cursor: pointer;
+}
+
+.topside i {
+	margin: -12px 0 0 -10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: $white;
+	font-size: 20px;
+}

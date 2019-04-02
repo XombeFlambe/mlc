@@ -1,0 +1,46 @@
+/*----------------------------------------------------------------------
+ Blocks, Med
+----------------------------------------------------------------------*/
+$max_width: $site_width; /* Set max width here */
+$block_gutter: 20px; /* Set gutter width here */
+
+$block_width: 100%;
+$block_margin: $block_width * ($block_gutter / $max_width);
+
+.blocks {
+	margin-left: -$block_margin;
+	font-size: 0;
+}
+
+.blocks > li {
+	display: inline-block;
+	margin: 0 0 $block_margin $block_margin;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+.blocks_8col > li {width: ($block_width - ($block_margin * 8)) / 8;}
+.blocks_7col > li {width: ($block_width - ($block_margin * 7)) / 7;}
+.blocks_6col > li {width: ($block_width - ($block_margin * 6)) / 6;}
+.blocks_5col > li {width: ($block_width - ($block_margin * 5)) / 5;}
+.blocks_4col > li {width: ($block_width - ($block_margin * 4)) / 4;}
+.blocks_3col > li {width: ($block_width - ($block_margin * 3)) / 3;}
+.blocks_2col > li {width: ($block_width - ($block_margin * 2)) / 2;}
+
+
+.blocks_vLine > li {
+	padding-left: $block_margin;
+	border-left: 1px solid $gray;
+}
+
+.blocks_vLine > li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+
+.blocks_vLine.blocks_2col > li {width: (($block_width - ($block_margin * 2)) / 2) + $block_margin/2;}
+.blocks_vLine.blocks_2col > li:first-child {width: (($block_width - ($block_margin * 2)) / 2) - $block_margin/2;}
+.blocks_vLine.blocks_3col > li {width: (($block_width - ($block_margin * 3)) / 3) + $block_margin/2;}
+.blocks_vLine.blocks_3col > li:first-child {width: (($block_width - ($block_margin * 3)) / 3) - $block_margin;}
+.blocks_vLine.blocks_4col > li {width: (($block_width - ($block_margin * 4)) / 4) + $block_margin/3;}
+.blocks_vLine.blocks_4col > li:first-child {width: (($block_width - ($block_margin * 4)) / 4) - $block_margin;}

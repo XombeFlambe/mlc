@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Masonry, Med
+// ------------------------------------------------------------------
+.masonry {
+	display: table;
+	width: 100%;
+}
+
+.masonry-col {
+	display: table-cell;
+	padding: 40px 20px;
+	vertical-align: top;
+}
+
+.masonry-col_noPad {
+	padding: 0;
+	line-height: 0;
+}
+
+.masonry-col_1of3 {width: 33.333%;}
+.masonry-col_2of3 {width: 66.666%;}
+
+.masonry-col_bgImg {padding: 16.75% 20px;}
+
+.mlc .masonry-col_bgImg {padding: 40px 20px;}

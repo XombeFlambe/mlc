@@ -1,0 +1,87 @@
+// ------------------------------------------------------------------
+// Header
+// ------------------------------------------------------------------
+@media screen and (min-width: 1024px) {
+	.header {padding: 10px 10px;}
+
+	.header-content {display: table;}
+
+	.header-content > *,
+	.header-action > * {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.header-logo {
+		height: 38px;
+		margin: 0;
+		padding: 0 20px 0 0;
+	}
+
+	.header-logo a {display: inline-block;}
+
+	.header-logo img {width: 300px;}
+
+	.header-trigger {display: none;}
+
+	.header-action {
+		display: table !important; /* important needed for responsive show/hide functionality */
+		width: 100%;
+		padding: 0;
+		position: relative;
+		top: inherit;
+	}
+
+	.header-nav {
+		border: none;
+		margin-bottom: 0;
+		display: table-cell;
+		width: 400px;
+	}
+
+	.header-nav > li {
+		display: table-cell;
+		padding-right: 20px;
+		white-space: nowrap;
+	}
+
+	.header-nav > li > * {display: inline-block;}
+
+	.header-dropdown {
+
+		.header-dropdown-trigger {
+			display: inline-block;
+		}
+
+		.header-dropdown-content {
+			padding-top: 0;
+			position: absolute;
+			top: 48px;
+			left: -10px;
+			background: $gray_dark;
+		}
+
+		.header-dropdown-content a {display: inline-block;}
+
+		.header-dropdown-content li:first-child a {padding-top: 0;}
+	}
+
+	.header-search {
+		display: table-cell;
+		width: initial;
+		text-align: right;
+		margin-bottom: 0;
+	}
+
+	.header-logout {
+		width: 50px;
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.header-logout a {
+		margin-top: -4px;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+}

@@ -1,0 +1,15 @@
+/* CSS Fixes for IE8 *******************************************************************************/
+.radio input[type="radio"],
+.checkbox input[type="checkbox"]{
+    position: relative;
+    left: 0;
+    text-indent: 0;
+}
+
+.radio .radio-custom,
+.checkbox .checkbox-custom {display: none;}
+
+.modal-mask {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9Fffffff,endColorstr=#9Fffffff); 
+	zoom: 1;
+}

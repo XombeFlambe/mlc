@@ -1,0 +1,150 @@
+{% macro active(activePage='home') %}
+					<!-- CARDS 3 COLUMN -->
+					<ul class="blocks {%if (activePage == '3col-images') or (activePage == '3col-brochures') %}blocks_3col{%endif%}{% if (activePage == '2col-images') or (activePage == '2col-brochures') or (activePage == '2col-emails') %}blocks_2col{%endif%}">
+						<li>
+							<div class="card {% if activePage == '2col-images' %}updated{%endif%}">
+								<div class="card-hd">
+									<h3>Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										{% if activePage == '2col-images' %}<i class="fa fa-exclamation padRight5"></i>{%endif%}
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card">
+								<div class="card-hd">
+									<h3>Object Title Object Title Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card">
+								<div class="card-hd">
+									<h3>Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card">
+								<div class="card-hd">
+									<h3>Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card">
+								<div class="card-hd">
+									<h3>Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="card">
+								<div class="card-hd">
+									<h3>Object Title Object Title</h3>
+								</div>
+								<div class="card-bd">
+									<div class="card-date">
+										<span>Updated: </span>
+										<span>03/13/17</span>
+									</div>
+									<p class="pushBtm20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquid mollitia enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam autem atque, doloribus voluptatum, non debitis provident cum deserunt ipsum.</p>
+									{% if (activePage == '3col-images') or (activePage == '2col-images') or (activePage == '2col-emails') %}
+									<a href="#" class="btn pushBtm10">
+										<i class="fa fa-download"></i>
+										<span> Download zip</span>
+									</a>
+									{%endif%}
+									{% if (activePage == '3col-brochures') or (activePage == '2col-brochures') %}
+									<a href="#" class="btn pushBtm10">Preview</a>
+									<a href="forms-customization-request.html" class="btn pushBtm10 btn_secondary">Request Customization</a>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+					</ul>
+{% endmacro %}
